@@ -1,0 +1,21 @@
+{
+    // flake8
+    "flake8.importStrategy": "fromEnvironment",
+    // black
+    "black-formatter.importStrategy": "fromEnvironment",
+    // mypy
+    "mypy-type-checker.importStrategy": "fromEnvironment",
+    // isort
+    "isort.importStrategy": "fromEnvironment",
+    "isort.check": true, // isortのチェックを有効化
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "notebook.formatOnSave.enabled": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+}
