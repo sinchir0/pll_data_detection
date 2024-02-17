@@ -2,7 +2,14 @@
 
 ## バックグラウンドでの動作
 ```
-nohup ./do_notebook_by_cli.sh exp/exp001.ipynb &
+cd /notebooks
+nohup ./pll_data_detection/do_notebook_by_cli.sh pll_data_detection/exp/exp001.ipynb &
+```
+
+## 動作確認
+```
+cd /notebooks
+./pll_data_detection/do_notebook_by_cli.sh pll_data_detection/exp/exp001.ipynb
 ```
 
 ## 動いているかの確認
@@ -26,6 +33,9 @@ https://github.com/settings/keys
 ```
 git pull origin main
 ```
+
+## メモリの確認
+vmstat -t 2
 
 ### Ref
 https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
