@@ -34,6 +34,15 @@ https://github.com/settings/keys
 git pull origin main
 ```
 
+## git add, commit, push
+
+```
+git add -u
+git config --global user.email "s-saito@chic.ocn.ne.jp"
+git commit -m "add"
+git push origin main
+```
+
 ## メモリの確認
 vmstat -t 2
 
