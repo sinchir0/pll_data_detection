@@ -55,3 +55,13 @@ https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generati
   - 1Notebook1実験(1要素しか変更しない)
   - ipynbのファイル名の最初に[ToDO], [Now], [Done]をつける
   - Notebookの最初に、このNotebookでの目的は何で、結果はどうなったかを書く
+
+## 外部データセット
+external_pii_dataset.csv
+https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/discussion/469493
+
+### punctuationを修正したバージョン
+pii_dataset_fixed.csv
+moredata_dataset_fixed.csv
+https://www.kaggle.com/code/valentinwerner/fix-punctuation-tokenization-external-dataset/output
+
