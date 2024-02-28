@@ -3,7 +3,10 @@
 ## バックグラウンドでの動作
 ```
 cd /notebooks
+# 単発
 nohup ./pll_data_detection/do_notebook_by_cli.sh pll_data_detection/exp/exp001.ipynb &
+# 複数個(あらかじめ、mutiple_run.sh内に実行したいnotebookを記載する)
+nohup ./pll_data_detection/multiple_run.sh &
 ```
 
 ## 動作確認
@@ -65,3 +68,6 @@ pii_dataset_fixed.csv
 moredata_dataset_fixed.csv
 https://www.kaggle.com/code/valentinwerner/fix-punctuation-tokenization-external-dataset/output
 
+## nbconvertで変換した際に、ログに残るかどうか
+- printで出力したものは残る
+- notebookの一番最後に実行し、Notebookの機能で出力したものは残らない
