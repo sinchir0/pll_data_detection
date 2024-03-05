@@ -22,6 +22,7 @@ ps aux | grep python
 
 ## GitHubからのpull
 ```
+cd pll_data_detection/
 ssh-keygen -t ed25519 -C "s-saito@chic.ocn.ne.jp"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
