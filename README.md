@@ -36,6 +36,8 @@ https://github.com/settings/keys
 
 ```
 git pull origin main
+# commitをする場合は以下も追加
+git config --global user.email "s-saito@chic.ocn.ne.jp"
 ```
 
 ## git add, commit, push
