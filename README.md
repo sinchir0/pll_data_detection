@@ -1,8 +1,11 @@
 # kaggle_pll
 
-注意: ローカルに保存せずs3に送りつける設定ができるまでは、定期的にファイルを消すこと
 ```
-rm -rf logs
+# 不要なファイルを削除
+rm -rf pll_data_detection/log
+
+# S3へ避難する
+cp -r /notebooks/pll_data_detection/trained_models /datasets/pii_bucket
 ```
 
 
