@@ -19,6 +19,9 @@ plotly = "^5.18.0"
 nbformat = "^5.9.2"
 sentencepiece = "^0.1.99"
 seqeval = "^1.2.2"
+google-generativeai = "^0.4.1"
+openai = "^1.14.2"
+tokenizers = "^0.15.2"
 
 
 [tool.poetry.group.dev.dependencies]
