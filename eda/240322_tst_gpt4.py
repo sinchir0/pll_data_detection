@@ -1,6 +1,6 @@
 import openai
 
-role_text = """You are student in the following profile.
+role_text = """You are the person in the following profile.
 
 name = Camille Collin
 email = camille_collin@lebon.org
