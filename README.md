@@ -83,3 +83,16 @@ https://www.kaggle.com/code/valentinwerner/fix-punctuation-tokenization-external
 ## nbconvertで変換した際に、ログに残るかどうか
 - printで出力したものは残る
 - notebookの一番最後に実行し、Notebookの機能で出力したものは残らない
+
+## kaggle cliの利用方法
+
+### 準備
+```
+mkdir -p ~/.kaggle/
+cp /notebooks/pll_data_detection/kaggle.json ~/.kaggle/
+chmod 600 ~/.kaggle/kaggle.json
+```
+
+```
+pip install kaggle
+```
