@@ -8,7 +8,6 @@ rm -rf pll_data_detection/log
 cp -r /notebooks/pll_data_detection/trained_models /datasets/pii_bucket
 ```
 
-
 ## バックグラウンドでの動作
 ```
 cd /notebooks
