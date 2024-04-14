@@ -23,6 +23,7 @@ google-generativeai = "^0.4.1"
 openai = "^1.14.2"
 tokenizers = "^0.15.2"
 faker = "^24.4.0"
+lightgbm = "^4.3.0"
 
 
 [tool.poetry.group.dev.dependencies]
