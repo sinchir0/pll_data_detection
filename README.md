@@ -5,6 +5,7 @@
 rm -rf pll_data_detection/log
 
 # S3へ避難する
+ls /datasets/pii_bucket
 cp -r /notebooks/pll_data_detection/trained_models /datasets/pii_bucket
 ```
 
