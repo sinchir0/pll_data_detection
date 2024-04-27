@@ -32,7 +32,7 @@ ps aux | grep python
 ## GitHubからのpull
 ```
 cd pll_data_detection/
-ssh-keygen -t ed25519 -C "s-saito@chic.ocn.ne.jp"
+ssh-keygen -t ed25519 -C "<YOUR_EMAIL_ADDRESS>"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
@@ -46,14 +46,14 @@ https://github.com/settings/keys
 ```
 git pull origin main
 # commitをする場合は以下も追加
-git config --global user.email "s-saito@chic.ocn.ne.jp"
+git config --global user.email "<YOUR_EMAIL_ADDRESS>"
 ```
 
 ## git add, commit, push
 
 ```
 git add -u
-git config --global user.email "s-saito@chic.ocn.ne.jp"
+git config --global user.email "<YOUR_EMAIL_ADDRESS>"
 git commit -m "add"
 git push origin main
 ```
@@ -65,13 +65,6 @@ vmstat -t 2
 
 ### Ref
 https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-
-## 実験管理のために
-- 問題点: 日付が空くと何をしていたか忘れる、一度やった実験を何度もやってしまう
-- 解決策
-  - 1Notebook1実験(1要素しか変更しない)
-  - ipynbのファイル名の最初に[ToDO], [Now], [Done]をつける
-  - Notebookの最初に、このNotebookでの目的は何で、結果はどうなったかを書く
 
 ## nbconvertで変換した際に、ログに残るかどうか
 - printで出力したものは残る
